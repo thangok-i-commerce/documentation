@@ -52,7 +52,7 @@ With Edge service, just only one they need to touch
 
 We use Spring API Gateway for this
 
-### Service discovery
+### 3.2/ Service discovery
 In the world of microservice, when ton of services is added, 
 the fact that each team should remember each other service IP & Port will soon become nightmare.
 
@@ -62,3 +62,12 @@ Service discovery do the rest
 We use Spring Eureka for this.
 
 Of course, when we bring this to the Cloud, with Kubernetes, we can use Kubernetes Discovery to replace this
+
+### 3.3/ Identity service
+Why Two not One?
+
+Well, Shop Identity will provide large Role-Base permission when we establish a shop with several staff.
+And each staff do their own job: Product Category management, Brand management, Stock management, Accounting...
+
+How about Customer Identity? They don't need log-in at all, just let them in, looking for what they want,
+and at the end of journey, give them a simple JWT base on Cart-Session & Mobile number, that enough
