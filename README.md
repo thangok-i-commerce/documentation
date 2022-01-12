@@ -90,5 +90,5 @@ We can achieve this by adding a unique key in the header cookie - the card sessi
 (Click image to view large mode)
 
 #### 3.5.1/ Saga Orchestration - Scenario: Some step fail
-![](i-commerce-order-manager.drawio.png)
+![](i-commerce-order-manager-fail.drawio.png)
 (Click image to view large mode)
