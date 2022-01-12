@@ -16,7 +16,7 @@ which optimize computing resource, and easily scale when more and more customer 
 
 ## 1/ Overview
 
-![](i-commerce-system-component.drawio.png)
+![](i-commerce-system-component.drawio.svg)
 
 In this system, whole back-end is a large heart where the business happen.
 
@@ -71,3 +71,6 @@ And each staff do their own job: Product Category management, Brand management, 
 
 How about Customer Identity? They don't need log-in at all, just let them in, looking for what they want,
 and at the end of journey, give them a simple JWT base on Cart-Session & Mobile number, that enough
+
+### 3.4/ Cart Session
+![](i-commerce-cart.drawio.svg)
