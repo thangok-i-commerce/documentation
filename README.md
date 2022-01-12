@@ -75,3 +75,13 @@ and at the end of journey, give them a simple JWT base on Cart-Session & Mobile 
 
 ### 3.4/ Cart Session
 ![](i-commerce-cart.drawio.svg)
+
+Cart is a special object, it has memory!
+
+We need to ensure that user can make some choice, then they close the tab,
+they go somewhere, but when they come back,
+we need bring the previous card to them.
+
+We can achieve this by adding a unique key in the header cookie - the card session id
+
+### 3.5/ Order manager - WebFLux + Saga Orchestration
