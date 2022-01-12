@@ -16,7 +16,7 @@ which optimize computing resource, and easily scale when more and more customer 
 
 ## 1/ Overview
 
-![](i-commerce-system-component.drawio.svg)
+![](i-commerce-system-component.drawio.png)
 
 In this system, whole back-end is a large heart where the business happen.
 
