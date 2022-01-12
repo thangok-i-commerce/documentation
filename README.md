@@ -85,5 +85,10 @@ we need bring the previous card to them.
 We can achieve this by adding a unique key in the header cookie - the card session id
 
 ### 3.5/ Order manager - WebFLux + Saga Orchestration
+#### 3.5.1/ Saga Orchestration - Scenario: All step successfully
+![](i-commerce-order-manager.drawio.png)
+(Click image to view large mode)
+
+#### 3.5.1/ Saga Orchestration - Scenario: Some step fail
 ![](i-commerce-order-manager.drawio.png)
 (Click image to view large mode)
